@@ -1,7 +1,9 @@
+$primary-color: #333;
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #aaa;
+    background-color: $primary-color;
 }
 #game {
     margin: 20px auto;

@@ -14,7 +14,7 @@ module.exports = function(grunt) {
                 lib:    'src/lib/',
                 js:     'src/js/**/*.js',
                 assets: 'src/assets/',
-                css:    'src/css/*.css',
+                scss:   'src/scss/{,*/}*.{scss,sass}',
                 index:  'src/index.html'
             },
             assets: {
@@ -68,14 +68,6 @@ module.exports = function(grunt) {
                     }
                 ]
             },
-            css: {
-                files: [{
-                    cwd: '<%= dir.src.root %>',
-                    src: ['css/**/*.*'],
-                    dest: '<%= dir.deploy.root %>',
-                    expand: true
-                }]
-            },
             html: {
                 files: [{
                     src: ['<%= dir.src.index %>'],
@@ -83,6 +75,13 @@ module.exports = function(grunt) {
                     expand: true,
                     flatten: true
                 }]
+            }
+        },
+        sass: {
+            compile: {
+                files: {
+                    '<%= dir.deploy.css %>/style.css': ['<%= dir.src.scss %>']
+                }
             }
         },
         concat: {
@@ -141,9 +140,9 @@ module.exports = function(grunt) {
                     livereload: true
                 }
             },
-            css: {
-                files: '<%= dir.src.css %>',
-                tasks: ['copy:css'],
+            scss: {
+                files: '<%= dir.src.scss %>',
+                tasks: ['sass'],
                 options: {
                     livereload: true
                 }
@@ -157,6 +156,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-open');
     grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-mkdir');
@@ -170,6 +170,10 @@ module.exports = function(grunt) {
     grunt.registerTask('updatejs', [
         'concat',
         'uglify'
+    ]);
+    
+    grunt.registerTask('updatecss', [
+        'sass'
     ]);
     
     grunt.registerTask('default', [
