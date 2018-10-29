@@ -57,11 +57,11 @@ const Header = () => {
         <p>
           I'm Peter D'Orsi
           <span>.</span> <br />
-          Director of Product at <OutboundLink href="https://www.portfolium.com/">Portfolium</OutboundLink> and previously held tiles like: Engineering Manager, UX Lead, Frontend Engineer and Director of Creative Strategies
+          Director of Product at <OutboundLink href="https://www.portfolium.com/">Portfolium</OutboundLink> and previously held tiles like: Engineering Manager, UX Lead, Sr. Frontend Engineer and Director of Creative Strategies
           <span>.</span>
         </p>
         <p>
-        He successfully finished a 48oz steak and was a 2011 Geekadelphia Award Nominee
+        I've successfully finished a 48oz steak and was a 2011 Geekadelphia Award Nominee
         <span>.</span>
         </p>
         <p>
