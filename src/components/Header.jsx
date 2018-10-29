@@ -30,8 +30,8 @@ const Button = styled(OutboundLink)`
   }
 `;
 
-const Homepage = styled(Button)`
-  ${tw('bg-indigo text-white')};
+const Linkedin = styled(Button)`
+  ${tw('bg-indigo text-white sm:mx-4 my-4')};
 `;
 
 const GitHub = styled(Button)`
@@ -39,7 +39,11 @@ const GitHub = styled(Button)`
 `;
 
 const Twitter = styled(Button)`
-  ${tw('bg-blue text-white')};
+  ${tw('bg-blue text-white sm:mx-4 my-4 sm:my-0')};
+`;
+
+const Steam = styled(Button)`
+  ${tw('bg-black text-white sm:mx-4 my-4 sm:my-0')};
 `;
 
 const Header = () => {
@@ -53,21 +57,31 @@ const Header = () => {
         <p>
           I'm Peter D'Orsi
           <span>.</span> <br />
-          Director of Product at Portfolium and previously a Engineering Manager, UX Lead, Frontend Engineer and Creative Strategist Director elsewhere
-          <span>.</span> Outside of work I enjoy playing a ton of video games, rescuing pugs, trying exotic cuisines and exploring with my family
+          Director of Product at <OutboundLink href="https://www.portfolium.com/">Portfolium</OutboundLink> and previously held tiles like: Engineering Manager, UX Lead, Frontend Engineer and Director of Creative Strategies
           <span>.</span>
+        </p>
+        <p>
+        He successfully finished a 48oz steak and was a 2011 Geekadelphia Award Nominee
+        <span>.</span>
+        </p>
+        <p>
+        Outside of work I enjoy playing a ton of video games, rescuing pugs, trying exotic cuisines and exploring with my family
+        <span>.</span>
         </p>
       </Description>
       <Social>
-        <Homepage role="button" href="https://www.peterdorsi.com">
-          Homepage
-        </Homepage>
+        <Linkedin role="button" href="https://www.linkedin.com/in/peterdorsi">
+          Linked In
+        </Linkedin>
         <GitHub role="button" href="https://github.com/peterdorsi">
           GitHub
         </GitHub>
         <Twitter role="button" href="https://twitter.com/peterdorsi">
           Twitter
         </Twitter>
+        <Steam role="button" href="https://steamcommunity.com/id/moskrilla">
+          Steam
+        </Steam>
       </Social>
     </Intro>
   );

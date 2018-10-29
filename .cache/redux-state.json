@@ -1324,12 +1324,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-29T20:43:11.790Z",
+      "buildTime": "2018-10-29T20:49:16.144Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dc4c18f879f86c544bbde54ae1d1859b",
+        "contentDigest": "552386db6fb3f9f6899ff9b55747b571",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1339,7 +1339,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2217d46519e4a85eded97f1cd236c65e",
+        "contentDigest": "fb2e3a80a650aa3cf672acf13af0a521",
         "type": "Directory",
         "description": "Directory \"src/sites\"",
         "owner": "gatsby-source-filesystem"
@@ -1350,9 +1350,9 @@
       "extension": "",
       "size": 160,
       "prettySize": "160 B",
-      "modifiedTime": "2018-10-29T20:16:59.732Z",
-      "accessTime": "2018-10-29T20:43:18.715Z",
-      "changeTime": "2018-10-29T20:16:59.732Z",
+      "modifiedTime": "2018-10-29T20:48:42.967Z",
+      "accessTime": "2018-10-29T20:49:22.170Z",
+      "changeTime": "2018-10-29T20:48:42.967Z",
       "birthTime": "2018-10-15T20:46:58.000Z",
       "root": "/",
       "dir": "/private/var/www/peterdorsi.com/src",
@@ -1367,15 +1367,15 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 20759898,
+      "ino": 20911179,
       "blocks": 0,
-      "atimeMs": 1540845798714.7693,
-      "mtimeMs": 1540844219732.2178,
-      "ctimeMs": 1540844219732.2178,
+      "atimeMs": 1540846162169.585,
+      "mtimeMs": 1540846122967.3425,
+      "ctimeMs": 1540846122967.3425,
       "birthtimeMs": 1539636418000,
-      "atime": "2018-10-29T20:43:18.715Z",
-      "mtime": "2018-10-29T20:16:59.732Z",
-      "ctime": "2018-10-29T20:16:59.732Z",
+      "atime": "2018-10-29T20:49:22.170Z",
+      "mtime": "2018-10-29T20:48:42.967Z",
+      "ctime": "2018-10-29T20:48:42.967Z",
       "birthtime": "2018-10-15T20:46:58.000Z"
     },
     "fd763236-4ed0-5ec8-8a83-7590c750f50f": {
@@ -1386,7 +1386,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9d601832f793627bc5fcea3a3ee630e0",
+        "contentDigest": "5b0125d9801d1117d04ad585ad18753d",
         "type": "File",
         "mediaType": "text/yaml",
         "description": "File \"src/sites/sites.yaml\"",
@@ -1398,10 +1398,10 @@
       "extension": "yaml",
       "size": 518,
       "prettySize": "518 B",
-      "modifiedTime": "2018-10-29T20:35:56.966Z",
-      "accessTime": "2018-10-29T20:35:56.962Z",
-      "changeTime": "2018-10-29T20:35:56.966Z",
-      "birthTime": "2018-10-15T20:46:58.000Z",
+      "modifiedTime": "2018-10-29T20:49:57.483Z",
+      "accessTime": "2018-10-29T20:49:57.775Z",
+      "changeTime": "2018-10-29T20:49:57.483Z",
+      "birthTime": "2018-10-29T20:46:42.489Z",
       "root": "/",
       "dir": "/private/var/www/peterdorsi.com/src/sites",
       "base": "sites.yaml",
@@ -1415,16 +1415,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 20759905,
+      "ino": 20913759,
       "blocks": 8,
-      "atimeMs": 1540845356961.768,
-      "mtimeMs": 1540845356965.531,
-      "ctimeMs": 1540845356965.531,
-      "birthtimeMs": 1539636418000,
-      "atime": "2018-10-29T20:35:56.962Z",
-      "mtime": "2018-10-29T20:35:56.966Z",
-      "ctime": "2018-10-29T20:35:56.966Z",
-      "birthtime": "2018-10-15T20:46:58.000Z"
+      "atimeMs": 1540846197774.9414,
+      "mtimeMs": 1540846197482.6052,
+      "ctimeMs": 1540846197482.6052,
+      "birthtimeMs": 1540846002489.343,
+      "atime": "2018-10-29T20:49:57.775Z",
+      "mtime": "2018-10-29T20:49:57.483Z",
+      "ctime": "2018-10-29T20:49:57.483Z",
+      "birthtime": "2018-10-29T20:46:42.489Z"
     },
     "db2ace19-fd3d-5e56-ad50-b04f3f54f2c8": {
       "id": "db2ace19-fd3d-5e56-ad50-b04f3f54f2c8",
@@ -1445,10 +1445,10 @@
       "extension": "png",
       "size": 861604,
       "prettySize": "862 kB",
-      "modifiedTime": "2018-10-29T20:15:46.547Z",
-      "accessTime": "2018-10-29T20:15:45.512Z",
-      "changeTime": "2018-10-29T20:15:46.552Z",
-      "birthTime": "2018-10-29T20:15:45.512Z",
+      "modifiedTime": "2018-10-29T20:46:42.489Z",
+      "accessTime": "2018-10-29T20:46:42.486Z",
+      "changeTime": "2018-10-29T20:46:42.489Z",
+      "birthTime": "2018-10-29T20:46:42.486Z",
       "root": "/",
       "dir": "/private/var/www/peterdorsi.com/src/sites",
       "base": "portfolium.png",
@@ -1462,16 +1462,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 20908518,
-      "blocks": 1800,
-      "atimeMs": 1540844145511.7683,
-      "mtimeMs": 1540844146547.4204,
-      "ctimeMs": 1540844146551.9692,
-      "birthtimeMs": 1540844145511.7683,
-      "atime": "2018-10-29T20:15:45.512Z",
-      "mtime": "2018-10-29T20:15:46.547Z",
-      "ctime": "2018-10-29T20:15:46.552Z",
-      "birthtime": "2018-10-29T20:15:45.512Z"
+      "ino": 20913758,
+      "blocks": 1688,
+      "atimeMs": 1540846002485.8572,
+      "mtimeMs": 1540846002488.7742,
+      "ctimeMs": 1540846002488.7742,
+      "birthtimeMs": 1540846002485.8572,
+      "atime": "2018-10-29T20:46:42.486Z",
+      "mtime": "2018-10-29T20:46:42.489Z",
+      "ctime": "2018-10-29T20:46:42.489Z",
+      "birthtime": "2018-10-29T20:46:42.486Z"
     },
     "b85e5406-e80d-5f11-b3ad-9363f357b2c8": {
       "id": "b85e5406-e80d-5f11-b3ad-9363f357b2c8",
@@ -1483,45 +1483,61 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "58224853-000c-5bb4-9c9c-f1db2b7b2b62": {
-      "title": "Portfolium",
-      "url": "https://portfolium.com",
-      "name": "portfolium",
-      "preview": "https://portfolio-emma.netlify.com/",
-      "description": "Educational software for ePortofolios and assessment",
-      "cover": "./portfolium.jpg",
-      "features": [
-        "Design",
-        "JS Architecture",
-        "UX"
+    "2affc087-4812-52e0-9ada-167d50d4132b": {
+      "id": "2affc087-4812-52e0-9ada-167d50d4132b",
+      "children": [
+        "bde29c7a-a29d-5d58-bf21-1f269fbefadf"
       ],
-      "id": "58224853-000c-5bb4-9c9c-f1db2b7b2b62",
-      "children": [],
-      "parent": "fd763236-4ed0-5ec8-8a83-7590c750f50f",
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d3149af295041c2172d768676a24c611",
-        "type": "SitesYaml",
-        "owner": "gatsby-transformer-yaml"
-      }
-    },
-    "3750f0e4-d598-546d-b7d9-7ffbf4f59eea": {
-      "title": "Light In The Box",
-      "url": "https://lightinthebox.com",
+        "contentDigest": "480cec850663c1f504bcccc947eca6de",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/sites/litb.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "sites",
+      "absolutePath": "/private/var/www/peterdorsi.com/src/sites/litb.png",
+      "relativePath": "litb.png",
+      "extension": "png",
+      "size": 815628,
+      "prettySize": "816 kB",
+      "modifiedTime": "2018-10-29T20:48:42.963Z",
+      "accessTime": "2018-10-29T20:48:42.159Z",
+      "changeTime": "2018-10-29T20:48:42.967Z",
+      "birthTime": "2018-10-29T20:48:42.159Z",
+      "root": "/",
+      "dir": "/private/var/www/peterdorsi.com/src/sites",
+      "base": "litb.png",
+      "ext": ".png",
       "name": "litb",
-      "preview": "https://portfolio-emma.netlify.com/",
-      "description": "Global online shopping",
-      "cover": "./litb.jpg",
-      "features": [
-        "Mobile",
-        "UX"
-      ],
-      "id": "3750f0e4-d598-546d-b7d9-7ffbf4f59eea",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20914224,
+      "blocks": 1600,
+      "atimeMs": 1540846122159.4956,
+      "mtimeMs": 1540846122962.6575,
+      "ctimeMs": 1540846122967.3425,
+      "birthtimeMs": 1540846122159.4956,
+      "atime": "2018-10-29T20:48:42.159Z",
+      "mtime": "2018-10-29T20:48:42.963Z",
+      "ctime": "2018-10-29T20:48:42.967Z",
+      "birthtime": "2018-10-29T20:48:42.159Z"
+    },
+    "bde29c7a-a29d-5d58-bf21-1f269fbefadf": {
+      "id": "bde29c7a-a29d-5d58-bf21-1f269fbefadf",
       "children": [],
-      "parent": "fd763236-4ed0-5ec8-8a83-7590c750f50f",
+      "parent": "2affc087-4812-52e0-9ada-167d50d4132b",
       "internal": {
-        "contentDigest": "73d2e8de85df68a5a31b16fd1e919103",
-        "type": "SitesYaml",
-        "owner": "gatsby-transformer-yaml"
+        "contentDigest": "480cec850663c1f504bcccc947eca6de",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "SitePage /": {
@@ -1542,6 +1558,47 @@
         "contentDigest": "23f35e7320940f779f186325a8ba3af8",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
+      }
+    },
+    "58224853-000c-5bb4-9c9c-f1db2b7b2b62": {
+      "title": "Portfolium",
+      "url": "https://portfolium.com",
+      "name": "portfolium",
+      "preview": "https://portfolio-emma.netlify.com/",
+      "description": "Educational software for ePortofolios and assessment",
+      "cover": "./portfolium.png",
+      "features": [
+        "Design",
+        "JS Architecture",
+        "UX"
+      ],
+      "id": "58224853-000c-5bb4-9c9c-f1db2b7b2b62",
+      "children": [],
+      "parent": "fd763236-4ed0-5ec8-8a83-7590c750f50f",
+      "internal": {
+        "contentDigest": "0576784415a216d752b0c6e88050cbbf",
+        "type": "SitesYaml",
+        "owner": "gatsby-transformer-yaml"
+      }
+    },
+    "3750f0e4-d598-546d-b7d9-7ffbf4f59eea": {
+      "title": "Light In The Box",
+      "url": "https://lightinthebox.com",
+      "name": "litb",
+      "preview": "https://portfolio-emma.netlify.com/",
+      "description": "Global online shopping",
+      "cover": "./litb.png",
+      "features": [
+        "Mobile",
+        "UX"
+      ],
+      "id": "3750f0e4-d598-546d-b7d9-7ffbf4f59eea",
+      "children": [],
+      "parent": "fd763236-4ed0-5ec8-8a83-7590c750f50f",
+      "internal": {
+        "contentDigest": "49d4c1947097b644a01ba5dc8569cc40",
+        "type": "SitesYaml",
+        "owner": "gatsby-transformer-yaml"
       }
     }
   },

@@ -7,3 +7,4 @@
 - Emotion
 - TailwindCSS
 - CSS-Grid
+- Theme from LekoArts

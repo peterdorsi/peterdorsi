@@ -10,8 +10,8 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import 'typeface-montserrat';
-import Content from '../components/Content';
-import Description from '../components/Description';
+// import Content from '../components/Content';
+// import Description from '../components/Description';
 import Header from '../components/Header';
 import favicon from '../favicon.png';
 import rightArrow from '../right-arrow.svg';
@@ -234,7 +234,7 @@ class Index extends Component {
       },
     } = this.props;
 
-    const { name, url } = this.state;
+    // const { name, url } = this.state;
 
     return (
       <React.Fragment>
@@ -266,7 +266,7 @@ class Index extends Component {
         </Helmet>
         <Page>
           <Header />
-          <SliderWrapper>
+          {/* <SliderWrapper>
             <Heading>Portfolio</Heading>
             <Grid>
               {edges.map(site => {
@@ -297,56 +297,10 @@ class Index extends Component {
                 );
               })}
             </Grid>
-          </SliderWrapper>
-          <Content>
-            <Heading>Getting started</Heading>
-            <Description>
-              <p>
-                Make sure that you have <a href="https://nodejs.org/en/">Node.js</a> and{' '}
-                <a href="https://github.com/nodejs/node-gyp#installation">node-gyp</a> installed on your system. In
-                order to clone and use the starters you first have to install the{' '}
-                <a href="https://www.gatsbyjs.org/docs/">Gatsby CLI</a>.
-              </p>
-            </Description>
-            <Description long>
-              <pre>
-                <code>
-                  <span>npm install</span> --global gatsby-cli
-                </code>
-              </pre>
-              <h3>Choose one of the starters and install it!</h3>
-              <SelectWrapper>
-                <select onChange={e => this.selectChange(e)}>
-                  <option data-name="[DIRECTORY_NAME]" data-url="[GITHUB_REPO_URL]">
-                    ---
-                  </option>
-                  {edges.map(site => {
-                    const { id, url, name, title } = site.node;
-                    return (
-                      <option key={id} data-name={name} data-url={url}>
-                        {title}
-                      </option>
-                    );
-                  })}
-                </select>
-                <pre>
-                  <code>
-                    <span>gatsby new</span> <i>{name}</i> {url}
-                  </code>
-                </pre>
-              </SelectWrapper>
-              <p>Go into the newly created directory and start the development server:</p>
-              <pre>
-                <code>
-                  <span>gatsby develop</span>
-                </code>
-              </pre>
-            </Description>
-          </Content>
+          </SliderWrapper> */}
           <Footer>
             Built with <OutboundLink href="https://www.gatsbyjs.org/">Gatsby</OutboundLink>.{' '}
             Hosted on <OutboundLink href="https://www.netlify.com">Netlify</OutboundLink>.{' '}
-            Theme from <OutboundLink href="https://www.lekoarts.de/">LekoArts</OutboundLink>.
           </Footer>
         </Page>
       </React.Fragment>
