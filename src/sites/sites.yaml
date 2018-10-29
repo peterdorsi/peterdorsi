@@ -1,0 +1,19 @@
+- title: 'Portfolium'
+  url: 'https://portfolium.com'
+  name: 'portfolium'
+  preview: 'https://portfolio-emma.netlify.com/'
+  description: 'Educational software for ePortofolios and assessment'
+  cover: './portfolium.jpg'
+  features:
+    - Design
+    - JS Architecture
+    - UX
+- title: 'Light In The Box'
+  url: 'https://lightinthebox.com'
+  name: 'litb'
+  preview: 'https://portfolio-emma.netlify.com/'
+  description: 'Global online shopping'
+  cover: './litb.jpg'
+  features:
+    - Mobile
+    - UX

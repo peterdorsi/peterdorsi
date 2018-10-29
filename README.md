@@ -1,4 +1,9 @@
-peterdorsi
-==========
+# PeterDorsi.com
+> SourceCode
 
-Source for PeterDorsi.com
+## Site
+
+- Gatsby v2
+- Emotion
+- TailwindCSS
+- CSS-Grid
