@@ -1,3 +1,13 @@
+# Build Path of Test Fixtures
+test/**/public
+.gatsby-context.js
+.DS_Store
+public/
+node_modules/
+.cache/
+.cache/*/
+.cache/*.*
+.netlify
 
 packages/*/yarn.lock
 packages/*/package-lock.json
@@ -36,19 +46,12 @@ examples/blog/public/
 dist
 bin/published.js
 
-# Build Path of Test Fixtures
-test/**/public
-.gatsby-context.js
-.DS_Store
-public/
-node_modules/
-.cache/
-.netlify
-
 # IDE specific
 .idea/
 .vscode/
 *.sw*
+
+amplify/
 
 .serverless/
 yarn.lock
