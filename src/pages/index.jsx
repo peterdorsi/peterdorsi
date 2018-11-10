@@ -300,7 +300,6 @@ class Index extends Component {
           </SliderWrapper> */}
           <Footer>
             Built with <OutboundLink href="https://www.gatsbyjs.org/">Gatsby</OutboundLink>.{' '}
-            Hosted on <OutboundLink href="https://www.netlify.com">Netlify</OutboundLink>.{' '}
           </Footer>
         </Page>
       </React.Fragment>

@@ -65,13 +65,13 @@ const Header = () => {
         <span>.</span>
         </p>
         <p>
-        Outside of work I enjoy playing a ton of video games, rescuing pugs, trying exotic cuisines and exploring with my family
+        Outside of work I enjoy playing a ton of video games, rescuing pugs, trying new cuisines and exploring with my family
         <span>.</span>
         </p>
       </Description>
       <Social>
         <Linkedin role="button" href="https://www.linkedin.com/in/peterdorsi">
-          Linked In
+          LinkedIn
         </Linkedin>
         <GitHub role="button" href="https://github.com/peterdorsi">
           GitHub
