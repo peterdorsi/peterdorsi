@@ -243,7 +243,7 @@ class Index extends Component {
           <title>{siteMetadata.siteTitle}</title>
           <meta
             name="description"
-            content="Peter D\'Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
+            content="Peter D'Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
           />
           <meta name="image" content={favicon} />
           <meta property="og:locale" content="en_US" />
@@ -252,7 +252,7 @@ class Index extends Component {
           <meta property="og:title" content="Personal site of Peter D'Orsi" />
           <meta
             property="og:description"
-            content="Peter D\'Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
+            content="Peter D'Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
           />
           <meta property="og:image" content={favicon} />
           <meta name="twitter:card" content="summary_large_image" />
@@ -260,7 +260,7 @@ class Index extends Component {
           <meta name="twitter:title" content="Personal site of Peter D'Orsi" />
           <meta
             name="twitter:description"
-            content="Peter D\'Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
+            content="Peter D'Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
           />
           <meta name="twitter:image" content={favicon} />
         </Helmet>
@@ -299,7 +299,7 @@ class Index extends Component {
             </Grid>
           </SliderWrapper> */}
           <Footer>
-            Built with <OutboundLink href="https://www.gatsbyjs.org/">Gatsby</OutboundLink>.{' '}
+
           </Footer>
         </Page>
       </React.Fragment>
