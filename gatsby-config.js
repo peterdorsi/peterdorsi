@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Peter D\'Orsi',
+    siteTitle: 'Peter D\'Orsi | San Diego based Director of Product',
     siteUrl: 'https://peterdorsi.com',
   },
   plugins: [

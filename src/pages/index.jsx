@@ -243,24 +243,24 @@ class Index extends Component {
           <title>{siteMetadata.siteTitle}</title>
           <meta
             name="description"
-            content="Peter D'Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
+            content="Peter D&#39;Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
           />
           <meta name="image" content={favicon} />
           <meta property="og:locale" content="en_US" />
           <meta property="og:site_name" content="peterdorsi.com" />
           <meta property="og:url" content="https://peterdorsi.com" />
-          <meta property="og:title" content="Personal site of Peter D'Orsi" />
+          <meta property="og:title" content="Personal site of Peter D&#39;Orsi" />
           <meta
             property="og:description"
-            content="Peter D'Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
+            content="Peter D&#39;Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
           />
           <meta property="og:image" content={favicon} />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:creator" content="@peterdorsi" />
-          <meta name="twitter:title" content="Personal site of Peter D'Orsi" />
+          <meta name="twitter:title" content="Personal site of Peter D&#39;Orsi" />
           <meta
             name="twitter:description"
-            content="Peter D'Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
+            content="Peter D&#39;Orsi a Technology Enthusiast, Internet Connoisseur, Gamer and friend to all Pugs"
           />
           <meta name="twitter:image" content={favicon} />
         </Helmet>

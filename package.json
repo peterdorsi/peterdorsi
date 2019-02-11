@@ -1,6 +1,6 @@
 {
   "name": "PeterDorsi.com",
-  "description": "Personal site for Peter D'Orsi",
+  "description": "Personal site for Peter D&#39;Orsi",
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop -o",

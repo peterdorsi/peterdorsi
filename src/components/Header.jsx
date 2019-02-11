@@ -55,7 +55,7 @@ const Header = () => {
       </Title>
       <Description>
         <p>
-          I'm Peter D'Orsi
+          I'm Peter D&#39;Orsi
           <span>.</span> <br />
           Director of Product at <OutboundLink href="https://www.portfolium.com/">Portfolium</OutboundLink> and previously held titles like: Engineering Manager, UX Lead, Sr. Frontend Engineer and Director of Creative Strategies
           <span>.</span>
